@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+
+WIDTH = 600
+HEIGHT = 600
+
+
+ROWS = 3
+COLS = 3
+
+SQ_SIZE = WIDTH // COLS
+
+RADIUS = SQ_SIZE // 4
+
+LINE_WIDTH = 10
+CIRC_WIDTH = 15
+CROSS_WIDTH = 15
+
+OFFSET = 50
+# colors
+# everything will be defined in RGB
+BG_COLOR = (255,140,0)
+LINE_COLOR = (105,105,105)
+
+CIRC_COLOR = (239,231,200)
+CROSS_COLOR = (66,66,66)
